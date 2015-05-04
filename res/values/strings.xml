@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Amr XO</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="choicesLC">
+        <item >black</item>
+        <item >white</item>
+        <item >blue</item>
+        <item >red</item>
+        <item >yellow</item>
+        <item >green</item>
+    </string-array>
+    
+    <string-array name="choicesBG">
+        <item >default</item>
+        <item >white</item>
+        <item >black</item>
+        <item >blue</item>
+        <item >red</item>
+        <item >yellow</item>
+        <item >green</item>
+    </string-array>
+    
+     <string-array name="choicesXC">
+        <item >black</item>
+        <item >white</item>
+        <item >blue</item>
+        <item >red</item>
+        <item >yellow</item>
+        <item >green</item>
+    </string-array>
+    
+     <string-array name="choicesOC">
+        <item >black</item>
+        <item >white</item>
+        <item >blue</item>
+        <item >red</item>
+        <item >yellow</item>
+        <item >green</item>
+    </string-array>
+    
+
+</resources>

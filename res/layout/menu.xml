@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    
+    >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:background="@drawable/abstract_grey"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="54dp"
+            android:text="Main Menu"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/bStart"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bHelp"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="37dp"
+            android:text="Start Game"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bHelp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bOptions"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Help"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bAbout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bHelp"
+            android:layout_below="@+id/bHelp"
+            android:layout_marginTop="20dp"
+            android:text="About"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bOptions"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bStart"
+            android:layout_below="@+id/bStart"
+            android:layout_marginTop="20dp"
+            android:text="Options"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</ScrollView>

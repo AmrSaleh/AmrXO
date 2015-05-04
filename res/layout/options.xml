@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollOptions"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/abstract_grey" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignRight="@+id/bCancel"
+            android:layout_below="@+id/textView2"
+            android:entries="@array/choicesBG" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/spinner1"
+            android:text="Line Color"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignRight="@+id/spinner1"
+            android:layout_below="@+id/textView3"
+            android:entries="@array/choicesLC" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/spinner2"
+            android:text="O Marker color"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignRight="@+id/spinner2"
+            android:layout_below="@+id/textView4"
+            android:entries="@array/choicesOC" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/spinner3"
+            android:text="X Marker color"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignRight="@+id/spinner3"
+            android:layout_below="@+id/textView5"
+            android:entries="@array/choicesXC" />
+
+        <Button
+            android:id="@+id/bCancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bApply"
+            android:layout_alignBottom="@+id/bApply"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="36dp"
+            android:text="Cancel" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/spinner4"
+            android:layout_below="@+id/spinner4"
+            android:checked="true"
+            android:layout_marginTop="0dp"
+            android:text="ToggleButton" />
+
+        <TextView
+            android:id="@+id/TextViewSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bApply"
+            android:layout_alignTop="@+id/toggleButtonSound"
+            android:text="Music"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Options"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/bApply"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/spinner4"
+            android:layout_below="@+id/toggleButtonSound"
+            android:text="Apply" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="51dp"
+            android:text="Background Color"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</ScrollView>
